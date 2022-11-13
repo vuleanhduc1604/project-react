@@ -1,0 +1,26 @@
+{
+  "name": "project_cuoi_khoa_27",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^3.1.0"
+  },
+  "dependencies": {
+    "@vercel/node": "^2.5.26",
+    "bootstrap": "^5.2.2",
+    "jquery": "^3.6.1",
+    "react-router-dom": "^6.4.3",
+    "rundev": "^0.0.0",
+    "sass": "^1.55.0",
+    "scss": "^0.2.4",
+    "slick": "^1.12.2",
+    "slick-carousel": "^1.8.1",
+    "toastr": "^2.1.4"
+  }
+}

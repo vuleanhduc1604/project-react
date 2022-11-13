@@ -1,0 +1,36 @@
+.header-img {
+    width: 21px;
+    position: absolute;
+    top: 272px;
+}
+.header-word, .desc-header {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    color: #c5590f;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.desc-list {
+    line-height: 30px;
+}
+.desc-header {
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.desc-header-wrapper {
+    border-bottom-width: 1px;
+    border-bottom-style: none;
+    border-bottom-color: #000000;
+}
+.desc-content-list {
+    margin-bottom: 10px;
+}
+a {
+    text-decoration: none !important;
+}
+.chu-de-dao-tao-content {
+    color: rgb(89,89,89) !important;
+    font-size: 16px;
+}

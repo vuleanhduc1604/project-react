@@ -1,0 +1,24 @@
+.middle-content-img {
+    width: 251px;
+}
+.middle-content-first {
+    background-image: url("Picture2.webp");
+}
+.middle-content-second-header {
+    font-size: 25px
+}
+.middle-content-header {
+    margin: 0;
+}
+.bold {
+    font-weight: bold;
+}
+@media screen and (max-width: 900px) {
+    .middle-content-first {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .middle-content-second, .middle-content-third, .middle-content-fourth {
+        margin-top: 20px;
+    }
+}

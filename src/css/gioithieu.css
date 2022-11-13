@@ -1,0 +1,100 @@
+.first-part-header, .second-part-header, .third-part-header {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 11px;
+}
+/* .first-part-header-wrapper, .second-part-header-wrapper, .third-part-header-wrapper {
+    border-bottom-style: solid;
+    border-bottom-color: #c5590f;
+    border-bottom-width: 1px;   
+} */
+
+.img {
+    width: 275px;
+}
+.gioi-thieu-desc-wrapper {
+    font-size: 18px;
+    width: 431px;
+    text-align: justify;
+}
+.tam-nhin-img, .su-menh-img, .gia-tri-img {
+    width: 66px;
+}
+
+.tam-nhin-header, .su-menh-header, .gia-tri-header {
+    letter-spacing: .05em;
+}
+.tam-nhin-content, .su-menh-content, .gia-tri-content {
+    letter-spacing: .03em;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.7em;
+    width: 631px;
+}
+.tam-nhin-wrapper, .su-menh-wrapper, .gia-tri-wrapper {
+    width: 721px;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-anchor-2 {
+    color: #c5590f;
+}
+
+@media screen and (max-width: 900px) {
+    .bg-wrapper {
+        display: flex;
+        width: 100%;
+        align-items: start;
+        justify-content: start;;
+    }
+
+    .tam-nhin-wrapper, .gia-tri-wrapper, .su-menh-wrapper, .gioi-thieu {
+        flex-direction: column;
+        width: 100% !important;
+    }
+    .img-wrapper, .gioi-thieu-desc-wrapper, .tam-nhin-header, .middle-content, .tam-nhin-content-wrapper, .tam-nhin-content, .su-menh-content-wrapper, .su-menh-content, .gia-tri-content-wrapper, .gia-tri-content {
+        text-align: center !important;
+        width: 100% !important;
+    }
+    .tam-nhin-img, .su-menh-img, .gia-tri-img {
+        margin: auto;
+    }
+    .img {
+        margin: auto;
+    }
+    .bg {
+        height: 88.135px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .img {
+        width: 100%;
+    }
+}
+.bg-img-test {
+    width: 27px;
+    height: 27px;
+    position: absolute;
+    left: 10vw;
+    top: 300px;
+}
+.bg-text {
+    font-size: 29px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-left: 15px;
+    padding-left: 10vw;
+    padding-top: 40px;
+}
+.bg-text-wrapper {
+    background-image: url("../assets/L-orange.webp")
+}
+.bg-test {
+    background-image: url("../assets/bg-stripe.webp");
+    height: 147px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+}
