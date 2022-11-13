@@ -7,7 +7,7 @@ const Navigation = () => {
             <i className="fa-solid fa-bars"></i>
            </div>
            <span className="overlay"></span>
-           <img srcSet="assets/sk-logo.png" alt="" className="logo-sk"/>
+           <img srcSet="/src/assets/sk-logo.png" alt="" className="logo-sk"/>
            <nav className="navbar" id="navbar">
               <ul className="menu" id="menu">   
                  <li className="menu-item home-item"><a href="index.html" className="menu-link">Home</a></li>
