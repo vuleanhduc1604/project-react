@@ -1,29 +1,30 @@
 import React from 'react';
 import { Link, useLoaderData } from 'react-router-dom';
+import Contact from '../../components/contact/Contact.jsx';
 const Home = () => {
     return (
         <div className="body-index">
         <div className="banner">
             <div id="banner-1" className="banner-wrapper">
-                <img srcSet="/src/assets/Poster1.webp" alt="Poster1" className="banner-img"/>
+                <img srcSet="Poster1.webp" alt="Poster1" className="banner-img"/>
             </div>
             <div id="banner-2" className="banner-wrapper">
-                <img srcSet="/src/assets/Poster2.webp" alt="Poster2" className="banner-img"/>
+                <img srcSet="Poster2.webp" alt="Poster2" className="banner-img"/>
             </div>
             <div id="banner-3" className="banner-wrapper">
-                <img srcSet="/src/assets/Poster3.webp" alt="Poster3" className="banner-img"/>
+                <img srcSet="Poster3.webp" alt="Poster3" className="banner-img"/>
             </div>
             <div id="banner-4" className="banner-wrapper">
-                <img srcSet="/src/assets/Poster4.webp" alt="Poster4" className="banner-img"/>
+                <img srcSet="Poster4.webp" alt="Poster4" className="banner-img"/>
             </div>
             <div id="banner-5" className="banner-wrapper">
-                <img srcSet="/src/assets/Poster5.webp" alt="Poster5" className="banner-img"/>
+                <img srcSet="Poster5.webp" alt="Poster5" className="banner-img"/>
             </div>
         </div>
         <div className="who-are-we-wrapper gray-bg padding-wrapper">
             <div className="who-are-we justify-content-center align-items-center container">
                 <div className="img-wrapper-1">
-                    <img srcSet="/src/assets/Picture7.webp" alt="" className="img-1"/>
+                    <img srcSet="Picture7.webp" alt="" className="img-1"/>
                 </div>
                 <div className="content-1">
                     <div className="header-1">
@@ -49,7 +50,7 @@ const Home = () => {
         <div className="clients-profit-wrapper padding-wrapper">
             <div className="clients-profit d-flex justify-content-between align-items-center container">
                 <div className="img-wrapper-2">
-                    <img srcSet="/src/assets/Picture2.webp" alt="" className="img-2"/>
+                    <img srcSet="Picture2.webp" alt="" className="img-2"/>
                 </div>
                 <div className="content-2">
                     <div className="header-2">
@@ -71,7 +72,7 @@ const Home = () => {
             <div className="service-wrapper d-flex justify-content-between">
                 <div className="service-1 d-flex align-items-center align-content-center">
                     <div className="img-bg-1 img-bg">
-                        <img srcSet="/src/assets/Picture6.webp" alt="" className="bg-1"/>
+                        <img srcSet="Picture6.webp" alt="" className="bg-1"/>
                     </div>
                     <div className="content-service-1">
                         <p className="service-head-1">TƯ VẤN QUẢN LÝ</p>
@@ -82,7 +83,7 @@ const Home = () => {
                 </div>
                 <div className="service-2 d-flex align-items-center align-content-center">
                     <div className="img-bg-2 img-bg">
-                        <img srcSet="/src/assets/Picture9.webp" alt="" className="bg-2"/>
+                        <img srcSet="Picture9.webp" alt="" className="bg-2"/>
                     </div>
                     <div className="content-service-2">
                         <p className="service-head-2">KHẢO SÁT VÀ ĐÁNH GIÁ</p>
@@ -94,7 +95,7 @@ const Home = () => {
                 </div>
                 <div className="service-3 d-flex align-items-baseline align-content-center">
                     <div className="img-bg-3 img-bg">
-                        <img srcSet="/src/assets/Picture8.webp" alt="" className="bg-3"/>
+                        <img srcSet="Picture8.webp" alt="" className="bg-3"/>
                     </div>
                     <div className="content-service-3">
                         <p className="service-head-3">ĐÀO TẠO VÀ PHÁT TRIỂN</p>
@@ -110,44 +111,30 @@ const Home = () => {
             <div className="clients-list-wrapper">
                 <div className="clients-list container">
                     <div id="client-1" className="banner-wrapper">
-                        <img srcSet="/src/assets/SUNGROUP.webp" alt="Poster1" className="banner-img"/>
+                        <img srcSet="SUNGROUP.webp" alt="Poster1" className="banner-img"/>
                     </div>
                     <div id="client-2" className="banner-wrapper">
-                        <img srcSet="/src/assets/VNPT.webp" alt="Poster2" className="banner-img"/>
+                        <img srcSet="VNPT.webp" alt="Poster2" className="banner-img"/>
                     </div>
                     <div id="client-3" className="banner-wrapper">
-                        <img srcSet="/src/assets/PTTT.webp" alt="Poster3" className="banner-img"/>
+                        <img srcSet="PTTT.webp" alt="Poster3" className="banner-img"/>
                     </div>
                     <div id="client-4" className="banner-wrapper">
-                        <img srcSet="/src/assets/NTT data.webp" alt="Poster4" className="banner-img"/>
+                        <img srcSet="NTT data.webp" alt="Poster4" className="banner-img"/>
                     </div>
                     <div id="client-5" className="banner-wrapper">
-                        <img srcSet="/src/assets/VAST.webp" alt="Poster5" className="banner-img"/>
+                        <img srcSet="VAST.webp" alt="Poster5" className="banner-img"/>
                     </div>
                     <div id="client-6" className="banner-wrapper">
-                        <img srcSet="/src/assets/vingroup.webp" alt="Poster5" className="banner-img"/>
+                        <img srcSet="vingroup.webp" alt="Poster5" className="banner-img"/>
                     </div>
                     <div id="client-7" className="banner-wrapper">
-                        <img srcSet="/src/assets/dainamuniversity.webp" alt="Poster5" className="banner-img"/>
+                        <img srcSet="dainamuniversity.webp" alt="Poster5" className="banner-img"/>
                     </div>
                 </div>
             </div>
         </div>
-        <div className="contact-us padding-wrapper text-center">
-            <p className="content-header">Liên hệ <span className="grey-bold">với chúng tôi</span></p>
-            <div className="input-wrapper d-flex justify-content-center">
-                <div className="left-wrapper">
-                    <input type="text" className="name" placeholder="Họ và tên..."/>
-                    <input type="tel" className="phone-number" placeholder="Số điện thoại..."/>
-                    <input type="text" className="company" placeholder="Tên Doanh nghiệp"/>
-                </div>
-                <div className="right-wrapper">
-                    <input type="email" className="email" placeholder="Email..."/>
-                    <textarea className="problem" placeholder="Nội dung cần tư vấn"></textarea>
-                </div>
-            </div>
-            <button className="submit-contact">Gửi</button>
-        </div>
+        <Contact/>
     </div>
     );
 };
