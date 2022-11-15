@@ -1,26 +1,12 @@
 import React from 'react';
 import { Link, useLoaderData } from 'react-router-dom';
 import Contact from '../../components/contact/Contact.jsx';
+import Clientslider from '../../components/clientslider/Clientslider.jsx';
+import Homeslider from '../../components/homeslider/Homeslider.jsx'
 const Home = () => {
     return (
         <div className="body-index">
-        <div className="banner">
-            <div id="banner-1" className="banner-wrapper">
-                <img srcSet="Poster1.webp" alt="Poster1" className="banner-img"/>
-            </div>
-            <div id="banner-2" className="banner-wrapper">
-                <img srcSet="Poster2.webp" alt="Poster2" className="banner-img"/>
-            </div>
-            <div id="banner-3" className="banner-wrapper">
-                <img srcSet="Poster3.webp" alt="Poster3" className="banner-img"/>
-            </div>
-            <div id="banner-4" className="banner-wrapper">
-                <img srcSet="Poster4.webp" alt="Poster4" className="banner-img"/>
-            </div>
-            <div id="banner-5" className="banner-wrapper">
-                <img srcSet="Poster5.webp" alt="Poster5" className="banner-img"/>
-            </div>
-        </div>
+        <Homeslider/>
         <div className="who-are-we-wrapper gray-bg padding-wrapper">
             <div className="who-are-we justify-content-center align-items-center container">
                 <div className="img-wrapper-1">
@@ -109,29 +95,7 @@ const Home = () => {
         <div className="our-clients text-center padding-wrapper">
             <p className="content-header">Khách hàng <span className="grey-bold">của chúng tôi</span></p>
             <div className="clients-list-wrapper">
-                <div className="clients-list container">
-                    <div id="client-1" className="banner-wrapper">
-                        <img srcSet="SUNGROUP.webp" alt="Poster1" className="banner-img"/>
-                    </div>
-                    <div id="client-2" className="banner-wrapper">
-                        <img srcSet="VNPT.webp" alt="Poster2" className="banner-img"/>
-                    </div>
-                    <div id="client-3" className="banner-wrapper">
-                        <img srcSet="PTTT.webp" alt="Poster3" className="banner-img"/>
-                    </div>
-                    <div id="client-4" className="banner-wrapper">
-                        <img srcSet="NTT data.webp" alt="Poster4" className="banner-img"/>
-                    </div>
-                    <div id="client-5" className="banner-wrapper">
-                        <img srcSet="VAST.webp" alt="Poster5" className="banner-img"/>
-                    </div>
-                    <div id="client-6" className="banner-wrapper">
-                        <img srcSet="vingroup.webp" alt="Poster5" className="banner-img"/>
-                    </div>
-                    <div id="client-7" className="banner-wrapper">
-                        <img srcSet="dainamuniversity.webp" alt="Poster5" className="banner-img"/>
-                    </div>
-                </div>
+                <Clientslider/>
             </div>
         </div>
         <Contact/>
